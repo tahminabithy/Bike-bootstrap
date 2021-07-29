@@ -17,10 +17,11 @@
 
 <body>
     <header>
+        <!-- 1st part  -->
         <section style=" background: #264653 ;">
-            <div class="container py-5">
+            <div class="container mx-auto py-5">
                 <div class=" row d-flex align-items-center justify-content-center ">
-                    <div class="col-12 col-lg-6   text-white">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6   text-white">
                         <p>Computer controlled digital transistorized with electronic advance</p>
                         <h1 class="fw-bold">Honda CBR 300R</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid blanditiis incidunt omnis,
@@ -34,7 +35,7 @@
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
-                            <div class="modal-dialog">
+                            <div class="modal-dialog text-dark">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="exampleModalLabel">purchase now?</h5>
@@ -42,7 +43,8 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <p class="fw-normal">please register first! then log in to purchase/p>
+                                        <p class="fw-normal">Do you want to purchase? please register first!you have to
+                                            use nagad for online purchase</p>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
@@ -56,8 +58,8 @@
 
 
                     </div>
-                    <div class="col-sm-12  col-lg-6">
-                        <img class="header-bike-size" src="images/header-bike.png" alt="">
+                    <div class="col-12 col-sm-12  col-lg-6">
+                        <img style="width: 552px; height: 447px;" src="images/header-bike.png" alt="">
                     </div>
 
                 </div>
@@ -70,17 +72,17 @@
     </header>
     <main>
         <!-- feature bikes -->
-        <section class="container py-5">
+        <section class="container py-5 my-5">
             <div class="text-center">
                 <h1 class="fw-bold">Featured bikes 2021</h1>
-                <p><small>best bike collection</small> </p>
+                <p class="icon-color"><small>best bike collection</small> </p>
 
             </div>
-            <div class="row g-3">
+            <div class="row g-3 my-5">
                 <div class="col-12 col-lg-4">
 
                     <div class="featured-bike-size">
-                        <img src="images/feature-bike.jpg" alt="">
+                        <img class="bike-gray" src="images/feature-bike.jpg" alt="">
                     </div>
 
                 </div>
@@ -92,7 +94,7 @@
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="featured-bike-size">
-                        <img src="images/feature-bike.jpg" alt="">
+                        <img class="bike-gray" src="images/feature-bike.jpg" alt="">
                     </div>
 
                 </div>
@@ -175,17 +177,17 @@
 
         </section>
         <!-- frequentlt asked question -->
-        <section class="container d-flex align-items-center justify-content-center"
+        <section class="container d-flex align-items-center justify-content-center shadow"
             style="width: 1125px; height: 495px;">
             <div class="row g-3 ">
-                <div class="col-lg-6">
+                <div class="col-12 col-lg-6">
 
 
                     <img style="width: 400px;" src="images/faq.png" alt="">
 
 
                 </div>
-                <div class="col-lg-6">
+                <div class="col-12 col-lg-6">
                     <!-- accodian -->
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
@@ -262,6 +264,41 @@
                     </div>
                 </div>
             </div>
+
+        </section>
+
+        <!-- form -->
+        <section class="container my-5">
+            <p class="text-center">First time here?<a href="">creat an account</a></p>
+            <h2>Sign in</h2>
+            <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="staticEmail"
+                        value="email@example.com">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="password">
+                    <a class="link-remove" href=""> <small>Need help logging in?</small> </a>
+                    <br>
+                    <button class="btn btn-primary my-4" type="submit">Sign in</button>
+
+                </div>
+        </section>
+        <!-- pagination -->
+        <section class="container d-flex justify-content-center my-5">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
 
         </section>
 

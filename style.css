@@ -1,8 +1,4 @@
-.header-bike-size{
-    width: 552px;
-    height: 447px;
 
-}
 .featured-bike-size img{
     width: 288px;
     height: 243px;
@@ -15,4 +11,7 @@
 }
 .icon-color{
     color:#E76F51;
+}
+.bike-gray{
+   filter: grayscale(100%);
 }
