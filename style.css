@@ -15,3 +15,6 @@
 .bike-gray{
    filter: grayscale(100%);
 }
+.link-remove{
+    text-decoration: none;
+}
